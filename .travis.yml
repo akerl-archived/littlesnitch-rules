@@ -10,7 +10,7 @@ before_install:
 - pip install --user awscli
 install:
 - rvm install $(cat .circle-ruby)
-- rvm all do $(cat .circle-ruby) gem update --system
+- rvm-exec $(cat .circle-ruby) gem update --system
 - rvm-exec $(cat .circle-ruby) bundle install
 script: rvm-exec $(cat .circle-ruby) bundle exec rake
 deploy:
