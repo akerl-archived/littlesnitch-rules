@@ -1,4 +1,4 @@
-aws-account
+littlesnitch-rules
 ===========
 
 [![Build Status](https://img.shields.io/travis/com/akerl/aws-account.svg)](https://travis-ci.com/akerl/littlesnitch-rules)
