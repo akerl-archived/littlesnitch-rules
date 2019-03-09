@@ -1,0 +1,22 @@
+dist: trusty
+env:
+  global:
+  - PATH=$HOME/.local/bin:$PATH
+  - BUCKET=akerl-keys
+  - AWS_DEFAULT_REGION=us-east-1
+before_install:
+- pip install --user awscli
+install:
+- rvm install $(cat .circle-ruby)
+- rvm-exec $(cat .circle-ruby) bundle install
+script: rvm-exec $(cat .circle-ruby) bundle exec rake
+deploy:
+  provider: script
+  script: aws s3 sync --delete _build/ s3://$BUCKET/ || travis_terminate 1
+  skip_cleanup: true
+  on:
+    branch: master
+notifications:
+  email: false
+  slack:
+    secure: LYRXDxmwu/Ziiw/VH+RVh7ZChAK9yL+gMfvICIPdXx1Sy20qK28EskW1r+XDO8Fh0c0bsf5/esqPHz/ZPiRSpGHxbY9iaTb+3pxTZ2jFXQB8peC8FT1TzNsROqqLmHRYSIXT06lhZo2Ux83wekBclwHISH6QPUODcXeSizBSYdQ0Gi4/dm3o0TsrYQKhLPjKL0R0FS76sL2dQuTHaAlj4DND4aD+zRReVATgCK3kJN986DLu3HnaKoIRzMR1wjqvx25IAZRU0XP911GirK+7Yn4pmjNYtOlHYLBDsnHHcCVTWE6jZuMgg7qQNia/FIVv/c93h6FdcPea/31ts/tMEGFXU0Bg8bFG88ddKww1raSIv2+2IwZwbPa04i9qODEEiJZxo7mmCTVqTkel7Qv12WFHW55TnmvNZ9/rgVMb5y/eHz0kTPZ6945s2tDcp6EcussV6wh4qxHYNLYrE2hZVaFsINc2VKNmSUlNL0XvlovLsos0r1Bb2W0q0VZY6Gn8wIpo5Nbr8Y1Lm2HmPRXqd8FOopatcq9PDgJDhlgrzS9LB1Exvac+l14vAP55oHcgG/l10FKj7ZcnxlJrt1z8iwxu9uOmpHK4HFaL7HbAo+U/i2ShR6S3anO516FEE/i1abIA7YITR4qcXAiR1ll4IKcZTakZCfC8HvhyHheTu1I=

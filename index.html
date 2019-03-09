@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Rule Groups"
+---
+<h2>LittleSnitch Rule Groups</h2>
+<p>This hosts the rule groups defined at <a href="{{ site.repo_url }}">{{ site.repo_url }}</a>. They are designed for use with <a href="https://www.obdev.at/products/littlesnitch/index.html">LittleSnitch</a></p>
+<ul>
+{% assign group_files = site.static_files | where: "is_rulegroup", true %}
+{% for group_file in group_files %}
+    <li><a href="{{ group_file.path }}">{{ group_file.basename }}</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+---
+destination: _build
+exclude:
+- README.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- Rakefile
+defaults:
+- scope:
+    path: groups
+  values:
+    is_rulegroup: true
+repo_url: 'https://github.com/akerl/littlesnitch-rules'
+host_url: 'https://littlesnitch.scrtybybscrty.org'
+...
