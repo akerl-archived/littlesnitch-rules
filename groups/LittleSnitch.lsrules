@@ -1,0 +1,25 @@
+{
+  "description" : "",
+  "name" : "LittleSnitch",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1513707656.226691,
+      "modificationDate" : 1513707656.226691,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Little Snitch\/Little Snitch Helper.app\/Contents\/MacOS\/Little Snitch Helper",
+      "remote-hosts" : "wtf.obdev.at"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1513777941.1122971,
+      "modificationDate" : 1513777941.1122971,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
+      "protocol" : "tcp",
+      "remote-hosts" : "sw-update.obdev.at"
+    }
+  ]
+}

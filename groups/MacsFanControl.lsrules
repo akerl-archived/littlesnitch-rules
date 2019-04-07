@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "MacsFanControl",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550965155.2827601,
+      "modificationDate" : 1550965155.2827601,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Macs Fan Control.app\/Contents\/MacOS\/MacsFanControl",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.crystalidea.com"
+    }
+  ]
+}

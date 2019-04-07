@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Omniplan",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1553610378.8275261,
+      "modificationDate" : 1553610378.8275261,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniPlan.app\/Contents\/MacOS\/OmniPlan",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.omnigroup.com"
+    }
+  ]
+}

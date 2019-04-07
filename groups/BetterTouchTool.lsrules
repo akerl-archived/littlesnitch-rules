@@ -1,0 +1,36 @@
+{
+  "description" : "",
+  "name" : "BetterTouchTool",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550965128.880445,
+      "modificationDate" : 1550965128.880445,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "e.crashlytics.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550991774.7799401,
+      "modificationDate" : 1550991774.7799401,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "settings.crashlytics.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551041657.3437428,
+      "modificationDate" : 1551041657.3437428,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "updates.bettertouchtool.net"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "description" : "",
+  "name" : "Alfred",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550965142.494276,
+      "modificationDate" : 1550965142.494276,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Alfred 3.app\/Contents\/MacOS\/Alfred 3",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.alfredapp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554635641.4478331,
+      "modificationDate" : 1554635641.4478331,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Alfred 3.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
+      "protocol" : "tcp",
+      "remote-hosts" : "cachefly.alfredapp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554635633.86531,
+      "modificationDate" : 1554635633.86531,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Alfred 3.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.alfredapp.com"
+    }
+  ]
+}

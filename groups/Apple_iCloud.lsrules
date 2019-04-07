@@ -1,0 +1,46 @@
+{
+  "description" : "",
+  "name" : "Apple_iCloud",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550965123.1094499,
+      "modificationDate" : 1550965123.1094499,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CalendarAgent.framework\/Executables\/CalendarAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "p43-calendars.icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552758328.8821769,
+      "modificationDate" : 1552758328.8821769,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gateway-carry.icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965127.8418531,
+      "modificationDate" : 1550965127.8418531,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gateway.icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965136.6003299,
+      "modificationDate" : 1550965136.6003299,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AOSKit.framework\/Versions\/A\/XPCServices\/com.apple.iCloudHelper.xpc\/Contents\/MacOS\/com.apple.iCloudHelper",
+      "protocol" : "tcp",
+      "remote-hosts" : "setup.icloud.com"
+    }
+  ]
+}

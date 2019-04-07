@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "OmniDiskSweeper",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1554580263.964483,
+      "modificationDate" : 1554580263.964483,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniDiskSweeper.app\/Contents\/MacOS\/OmniDiskSweeper",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.omnigroup.com"
+    }
+  ]
+}

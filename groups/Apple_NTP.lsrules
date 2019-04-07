@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Apple_NTP",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1533147353.775152,
+      "modificationDate" : 1533147353.775152,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/libexec\/timed",
+      "protocol" : "udp",
+      "remote-hosts" : "time-macos.apple.com"
+    }
+  ]
+}

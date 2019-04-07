@@ -1,0 +1,46 @@
+{
+  "description" : "",
+  "name" : "Apple_Push",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550997171.052201,
+      "modificationDate" : 1554650234.856535,
+      "owner" : "system",
+      "ports" : "5223",
+      "process" : "\/System\/Library\/PrivateFrameworks\/ApplePushService.framework\/apsd",
+      "protocol" : "tcp",
+      "remote-addresses" : "17.249.0.0-17.249.255.255"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550992228.8171239,
+      "modificationDate" : 1554650213.879873,
+      "owner" : "system",
+      "ports" : "5223",
+      "process" : "\/System\/Library\/PrivateFrameworks\/ApplePushService.framework\/apsd",
+      "protocol" : "tcp",
+      "remote-addresses" : "17.252.0.0-17.252.255.255"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965125.3777339,
+      "modificationDate" : 1550965398.9037299,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/ApplePushService.framework\/apsd",
+      "protocol" : "tcp",
+      "remote-domains" : "push.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551078538.6447902,
+      "modificationDate" : 1551078538.6447902,
+      "owner" : "system",
+      "ports" : "5223",
+      "process" : "\/System\/Library\/PrivateFrameworks\/ApplePushService.framework\/apsd",
+      "protocol" : "tcp",
+      "remote-domains" : "push.apple.com"
+    }
+  ]
+}

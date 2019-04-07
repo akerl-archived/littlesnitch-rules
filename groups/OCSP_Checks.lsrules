@@ -1,0 +1,246 @@
+{
+  "description" : "",
+  "name" : "OCSP_Checks",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1554555941.7190499,
+      "modificationDate" : 1554555941.7190499,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "crt.sectigo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554555938.006155,
+      "modificationDate" : 1554555938.006155,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "crt.usertrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550990864.433265,
+      "modificationDate" : 1550990864.433265,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551202435.693296,
+      "modificationDate" : 1551202435.693296,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.digicert.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554555943.7378211,
+      "modificationDate" : 1554555943.7378211,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.sectigo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554555945.7067051,
+      "modificationDate" : 1554555945.7067051,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.usertrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550995271.3379579,
+      "modificationDate" : 1550995271.3379579,
+      "owner" : "system",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "sv.symcd.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554555942.8232741,
+      "modificationDate" : 1554555942.8232741,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "crt.sectigo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554555940.5911779,
+      "modificationDate" : 1554555940.5911779,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "crt.usertrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551553945.917896,
+      "modificationDate" : 1551553945.917896,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "isrg.trustid.ocsp.identrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965607.4442902,
+      "modificationDate" : 1550965607.4442902,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551554350.709326,
+      "modificationDate" : 1551554350.709326,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.entrust.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551241305.8079371,
+      "modificationDate" : 1551241305.8079371,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.godaddy.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554114341.4737592,
+      "modificationDate" : 1554114341.4737592,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.msocsp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551203926.0128541,
+      "modificationDate" : 1551203926.0128541,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.sectigo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551203927.5481601,
+      "modificationDate" : 1551203927.5481601,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp.usertrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552096697.732141,
+      "modificationDate" : 1552096697.732141,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp2.globalsign.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551709667.4126601,
+      "modificationDate" : 1554648878.0402288,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "alphassl.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552333471.998472,
+      "modificationDate" : 1554648840.5405011,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "amazontrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551070089.532824,
+      "modificationDate" : 1554648872.674135,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "digicert.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551080475.0749059,
+      "modificationDate" : 1554648890.4579439,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "geotrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551037510.4973769,
+      "modificationDate" : 1554648944.338927,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "letsencrypt.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552333475.7583818,
+      "modificationDate" : 1554648921.0104289,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "ss2.us"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551596802.622124,
+      "modificationDate" : 1554648884.5454769,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/trustd",
+      "protocol" : "tcp",
+      "remote-domains" : "thawte.com"
+    }
+  ]
+}

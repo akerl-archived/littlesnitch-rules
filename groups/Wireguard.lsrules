@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Wireguard",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1554648017.427187,
+      "modificationDate" : 1554648017.427187,
+      "owner" : "me",
+      "ports" : "51820",
+      "process" : "\/Applications\/WireGuard.app\/Contents\/PlugIns\/WireGuardNetworkExtension.appex\/Contents\/MacOS\/WireGuardNetworkExtension",
+      "protocol" : "udp",
+      "remote-domains" : "wg.scrtybybscrty.org"
+    }
+  ]
+}

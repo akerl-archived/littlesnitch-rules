@@ -1,0 +1,76 @@
+{
+  "description" : "",
+  "name" : "ObjectiveSee",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550997122.5118589,
+      "modificationDate" : 1550997122.5118589,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Objective-See\/BlockBlock\/BlockBlock.app\/Contents\/MacOS\/BlockBlock",
+      "protocol" : "tcp",
+      "remote-hosts" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1538657209.663785,
+      "modificationDate" : 1538657209.663785,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Do Not Disturb.app\/Contents\/MacOS\/Do Not Disturb",
+      "protocol" : "tcp",
+      "remote-hosts" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1533152481.6009622,
+      "modificationDate" : 1533152481.6009622,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Do Not Disturb.app\/Contents\/Library\/LoginItems\/Do Not Disturb Helper.app\/Contents\/MacOS\/Do Not Disturb Helper",
+      "protocol" : "tcp",
+      "remote-hosts" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550990866.423831,
+      "modificationDate" : 1550990866.423831,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/Library\/Objective-See\/DND\/Do Not Disturb.bundle\/Contents\/MacOS\/Do Not Disturb",
+      "protocol" : "tcp",
+      "remote-hosts" : "a3e8cf05y1afif.iot.us-east-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1513862467.7242,
+      "modificationDate" : 1513862467.7242,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.virustotal.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965154.491647,
+      "modificationDate" : 1550965154.491647,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/OverSight.app\/Contents\/Library\/LoginItems\/OverSight Helper.app\/Contents\/MacOS\/OverSight Helper",
+      "protocol" : "tcp",
+      "remote-hosts" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965139.8522601,
+      "modificationDate" : 1550965139.8522601,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/Library\/LoginItems\/ReiKey Helper.app\/Contents\/MacOS\/ReiKey Helper",
+      "protocol" : "tcp",
+      "remote-hosts" : "objective-see.com"
+    }
+  ]
+}

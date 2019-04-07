@@ -1,0 +1,36 @@
+{
+  "description" : "",
+  "name" : "Docker",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550965120.097049,
+      "modificationDate" : 1550965120.097049,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.segment.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554111558.091022,
+      "modificationDate" : 1554111558.091022,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.wootric.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965137.639447,
+      "modificationDate" : 1550965137.639447,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "download.docker.com"
+    }
+  ]
+}

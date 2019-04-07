@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "GPGSuite",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550995233.1699419,
+      "modificationDate" : 1550995233.1699419,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/GPGTools\/GPGSuite_Updater.app\/Contents\/MacOS\/GPGSuite_Updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "gpgtools.org"
+    }
+  ]
+}

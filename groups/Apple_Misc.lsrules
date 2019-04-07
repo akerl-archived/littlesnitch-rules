@@ -1,0 +1,266 @@
+{
+  "description" : "",
+  "name" : "Apple_Misc",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550997148.137094,
+      "modificationDate" : 1554648574.872376,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/adprivacyd",
+      "protocol" : "tcp",
+      "remote-domains" : "iadsdk.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551009272.5676599,
+      "modificationDate" : 1554648584.2923851,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/adprivacyd",
+      "protocol" : "tcp",
+      "remote-domains" : "itunes.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551040123.991884,
+      "modificationDate" : 1551040123.991884,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gsa.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1553602839.5864439,
+      "modificationDate" : 1553602839.5864439,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gsas.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551428581.857038,
+      "modificationDate" : 1551428581.857038,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "tcp",
+      "remote-hosts" : "init.ess.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965157.9223108,
+      "modificationDate" : 1550965157.9223108,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-hosts" : "configuration.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550997128.6516399,
+      "modificationDate" : 1550997128.6516399,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-hosts" : "configuration.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965156.0576491,
+      "modificationDate" : 1550965423.602196,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-domains" : "ls.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965147.917659,
+      "modificationDate" : 1550965438.817554,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GeoServices.framework\/Versions\/A\/XPCServices\/com.apple.geod.xpc\/Contents\/MacOS\/com.apple.geod",
+      "protocol" : "tcp",
+      "remote-domains" : "ls.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551080613.177783,
+      "modificationDate" : 1551080613.177783,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/HelpData.framework\/Versions\/A\/Resources\/helpd",
+      "protocol" : "tcp",
+      "remote-hosts" : "cds.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551080617.9234829,
+      "modificationDate" : 1551080617.9234829,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/HelpData.framework\/Versions\/A\/Resources\/helpd",
+      "protocol" : "tcp",
+      "remote-hosts" : "help.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550997165.950408,
+      "modificationDate" : 1550997165.950408,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IDS.framework\/identityservicesd.app\/Contents\/MacOS\/identityservicesd",
+      "protocol" : "tcp",
+      "remote-hosts" : "init-p01md.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550997188.3672841,
+      "modificationDate" : 1550997188.3672841,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IDS.framework\/identityservicesd.app\/Contents\/MacOS\/identityservicesd",
+      "protocol" : "tcp",
+      "remote-hosts" : "init.ess.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550997170.1922979,
+      "modificationDate" : 1550997170.1922979,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IMCore.framework\/imagent.app\/Contents\/MacOS\/imagent",
+      "protocol" : "tcp",
+      "remote-hosts" : "init-p01md.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551010440.622864,
+      "modificationDate" : 1551010440.622864,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/keyboardservicesd",
+      "protocol" : "tcp",
+      "remote-hosts" : "configuration.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1513710425.426368,
+      "modificationDate" : 1513710425.426368,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/locationd",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551598807.6130319,
+      "modificationDate" : 1551598807.6130319,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
+      "protocol" : "tcp",
+      "remote-hosts" : "smp-device-content.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551305837.036366,
+      "modificationDate" : 1551305837.036366,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/rtcreportingd",
+      "protocol" : "tcp",
+      "remote-hosts" : "pancake.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554111713.5304332,
+      "modificationDate" : 1554111713.5304332,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/rtcreportingd",
+      "protocol" : "tcp",
+      "remote-hosts" : "xp.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554192273.802815,
+      "modificationDate" : 1554192273.802815,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/securityuploadd",
+      "protocol" : "tcp",
+      "remote-hosts" : "xp.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550997144.280129,
+      "modificationDate" : 1550997144.280129,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/MessagesKit.framework\/Versions\/A\/Resources\/soagent.app\/Contents\/MacOS\/soagent",
+      "protocol" : "tcp",
+      "remote-hosts" : "init-p01md.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554193860.8193221,
+      "modificationDate" : 1554193860.8193221,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/studentd",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554282970.079041,
+      "modificationDate" : 1554282970.079041,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/SubmitDiagInfo",
+      "protocol" : "tcp",
+      "remote-hosts" : "iphonesubmissions.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1554282907.0719819,
+      "modificationDate" : 1554282907.0719819,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/SubmitDiagInfo",
+      "protocol" : "tcp",
+      "remote-hosts" : "radarsubmissions.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550996771.899677,
+      "modificationDate" : 1550996771.899677,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/syspolicyd",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.apple-cloudkit.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1550965280.67629,
+      "modificationDate" : 1550965280.67629,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/Tourist.framework\/Versions\/A\/Resources\/touristd",
+      "protocol" : "tcp",
+      "remote-hosts" : "help.apple.com"
+    }
+  ]
+}

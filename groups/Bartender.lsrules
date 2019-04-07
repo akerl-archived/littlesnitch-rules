@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Bartender",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1551069841.188803,
+      "modificationDate" : 1551069841.188803,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Bartender 3.app\/Contents\/MacOS\/Bartender 3",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.macbartender.com"
+    }
+  ]
+}

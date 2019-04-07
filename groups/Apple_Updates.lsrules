@@ -1,0 +1,46 @@
+{
+  "description" : "",
+  "name" : "Apple_Updates",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1551359173.0802221,
+      "modificationDate" : 1551359173.0802221,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "tcp",
+      "remote-hosts" : "lcdn-locator.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1513872096.774509,
+      "modificationDate" : 1513872096.774509,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Software Update.app\/Contents\/Resources\/softwareupdated",
+      "protocol" : "tcp",
+      "remote-hosts" : "swdist.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1513782186.8487561,
+      "modificationDate" : 1513782186.8487561,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Software Update.app\/Contents\/Resources\/softwareupdated",
+      "protocol" : "tcp",
+      "remote-hosts" : "swscan.apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551078711.857172,
+      "modificationDate" : 1551078711.857172,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/Noticeboard.framework\/Versions\/A\/Resources\/nbagent.app\/Contents\/MacOS\/nbagent",
+      "protocol" : "tcp",
+      "remote-hosts" : "swscan.apple.com"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "description" : "",
+  "name" : "Flux",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550965156.9437652,
+      "modificationDate" : 1550965156.9437652,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Flux.app\/Contents\/MacOS\/Flux",
+      "protocol" : "tcp",
+      "remote-hosts" : "justgetflux.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552758140.9708319,
+      "modificationDate" : 1552758140.9708319,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Flux.app\/Contents\/MacOS\/Flux",
+      "protocol" : "tcp",
+      "remote-hosts" : "maps.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1553598738.3858762,
+      "modificationDate" : 1553598738.3858762,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Flux.app\/Contents\/MacOS\/Flux",
+      "protocol" : "tcp",
+      "remote-hosts" : "maps.gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552758138.9190621,
+      "modificationDate" : 1552758138.9190621,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Flux.app\/Contents\/MacOS\/Flux",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.google-analytics.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1552758145.8612461,
+      "modificationDate" : 1552758145.8612461,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Flux.app\/Contents\/MacOS\/Flux",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.google.com"
+    }
+  ]
+}

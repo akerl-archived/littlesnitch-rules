@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "GoogleChrome",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1536150576.2382479,
+      "modificationDate" : 1536150576.2382479,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1536154813.521657,
+      "modificationDate" : 1536154813.521657,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote" : "any"
+    }
+  ]
+}
