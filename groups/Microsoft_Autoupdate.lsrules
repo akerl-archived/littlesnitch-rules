@@ -1,0 +1,66 @@
+{
+  "description" : "",
+  "name" : "Microsoft_Autoupdate",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1550997118.332303,
+      "modificationDate" : 1550997118.332303,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AU Daemon.app\/Contents\/MacOS\/Microsoft AU Daemon",
+      "protocol" : "tcp",
+      "remote-hosts" : "mobile.pipe.aria.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551209589.8698769,
+      "modificationDate" : 1551209589.8698769,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AU Daemon.app\/Contents\/MacOS\/Microsoft AU Daemon",
+      "protocol" : "tcp",
+      "remote-hosts" : "officecdn-microsoft-com.akamaized.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551255810.7152441,
+      "modificationDate" : 1551255810.7152441,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AU Daemon.app\/Contents\/MacOS\/Microsoft AU Daemon",
+      "protocol" : "tcp",
+      "remote-hosts" : "officeci-mauservice.azurewebsites.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551256185.4620399,
+      "modificationDate" : 1551256185.4620399,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AutoUpdate",
+      "protocol" : "tcp",
+      "remote-hosts" : "mobile.pipe.aria.microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551256182.87482,
+      "modificationDate" : 1551256182.87482,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AutoUpdate",
+      "protocol" : "tcp",
+      "remote-hosts" : "officecdn-microsoft-com.akamaized.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1551256199.451458,
+      "modificationDate" : 1551256199.451458,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AutoUpdate",
+      "protocol" : "tcp",
+      "remote-hosts" : "officeci-mauservice.azurewebsites.net"
+    }
+  ]
+}
